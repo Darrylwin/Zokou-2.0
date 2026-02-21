@@ -26,7 +26,7 @@
         return (mod && mod.__esModule) ? mod : { "default": mod };
     };
     Object.defineProperty(exports, "__esModule", { value: true });
-    const baileys_1 = __importStar(require("@whiskeysockets/baileys"));
+    const baileys_1 = require("@whiskeysockets/baileys").default;
     const logger_1 = __importDefault(require("@whiskeysockets/baileys/lib/Utils/logger"));
     const logger = logger_1.default.child({});
     logger.level = 'silent';
